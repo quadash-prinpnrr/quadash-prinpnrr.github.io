@@ -1,0 +1,29 @@
+<svg width="420" height="266" viewBox="0 0 400 266" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sfondo trasparente -->
+  <rect width="420" height="266" fill="none"/>
+
+  <g transform="translate(30, 70)">
+    <!-- Icona Bar Chart (Replicata dal PNG) -->
+    <g transform="translate(0, 5)">
+       <!-- Bar 1 (Shortest) -->
+       <rect x="0" y="55" width="14" height="35" rx="4" fill="#9FB7C9" />
+       <!-- Bar 2 (Taller) -->
+       <rect x="22" y="10" width="14" height="80" rx="4" fill="#E09B5A" />
+       <!-- Bar 3 (Shorter than 2, taller than 1) -->
+       <rect x="44" y="30" width="14" height="60" rx="4" fill="#82B782" />
+       <!-- Bar 4 (Tallest) -->
+       <rect x="66" y="0" width="14" height="90" rx="4" fill="#D9827A" />
+    </g>
+
+    <!-- Testo principale e PRIN PNRR (Colori sito) -->
+    <g transform="translate(85, 55)">
+      <text font-family="Arial, sans-serif" font-weight="bold" font-size="58" fill="#3a4145">QuaDaSh</text>
+      <text x="2" y="32" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#b80135">PRIN PNRR 2022</text>
+    </g>
+  </g>
+
+  <!-- Sottotitolo (Richiesto) -->
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="19" font-style="italic" fill="#50585d" text-anchor="middle">
+    Quantification in the Context of Dataset Shift
+  </text>
+</svg>
