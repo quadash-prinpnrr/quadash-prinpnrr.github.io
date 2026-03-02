@@ -87,15 +87,15 @@
 <link rel=icon type=image/png sizes=16x16 href=https://lq-2023.github.io/images/favicon-16x16.png>
 
 <body>
-    <header id=site-head style=background-image:url(images/Turin.jpg)>
+    <header id=site-head style="background-image:url(images/Turin.jpg); background-color:white">
         <div class=vertical>
-            <div id=site-head-content class=inner>
-                <h1 class=blog-title>QuaDaSh: Quantification in the Context of Dataset Shift</h1>
-                <!-- <h2 class=blog-description>Torino, Italy -- September 18, 2023</h2> -->
-                <a class='btn site-menu' data-title-anchor=quadash>QuaDaSh</a>
-                <a class='btn site-menu' data-title-anchor=publications>Publications</a>
-                <a class='btn site-menu' data-title-anchor=awards>Awards</a>
-                <a class='btn site-menu' data-title-anchor=members>Members</a>
+            <div id=site-head-content class=inner style=margin-top:50%>
+                <!-- <h1 class="blog-title quadash">QuaDaSh</h1> -->
+                <!-- <h2 class=blog-description>Quantification in the Context of Dataset Shift</h2> -->
+                <a class='btn site-menu quadash' data-title-anchor=quadash>QuaDaSh</a>
+                <a class='btn site-menu quadash' data-title-anchor=publications>Publications</a>
+                <a class='btn site-menu quadash' data-title-anchor=awards>Awards</a>
+                <a class='btn site-menu quadash' data-title-anchor=members>Members</a>
                 <i id=header-arrow class="fa fa-angle-down"></i>
             </div>
         </div>
@@ -105,7 +105,7 @@
         <div class=post-holder>
             <article id=quadash class='post first'>
                 <header class=post-header>
-                    <h2 class=post-title>QuaDaSh</h2>
+                    <h2 class=post-title style="color:#b80135;">QuaDaSh</h2>
                 </header>
                 <section class=post-content>
                     <h3 class=post-subtitle>Quantification in the context of Dataset Shift</h3>
@@ -143,8 +143,8 @@
                         <img src=images/footer.png class=img alt="logo" width=100%>
                     </div>
                     <div class=project-info>
-                        <p>Codice Progetto: _CODE_ </p>
-                        <p>Data inizio: 01/12/2023 Data fine: 01/12/2025 (prorogato a 28 febbraio 2026) CUP: _CUP_</p>
+                        <p>Codice Progetto: P2022TB5JF </p>
+                        <p>Data inizio: 01/12/2023 Data fine: 01/12/2025 (prorogato a 28 febbraio 2026) CUP: B53D23026250001</p>
                         <p>Finanziato dall'Unione Europea - NextGenerationEU a valere sul Piano Nazionale di Ripresa e Resilienza (PNRR) – Missione 4 Istruzione e ricerca – Componente 2 Dalla ricerca all’impresa - Investimento 1.1</p>
                     </div>
                 </section>
@@ -161,7 +161,10 @@
                     <div class=pub-list>
                         <!-- ----------------------------------------- -->
                         <div class=publication>
-                            <div class=publication-year>2024</div>
+                            <div class=publication-meta>
+                                <div class=publication-year>2024</div>
+                                <div class=publication-task>A1.1</div>
+                            </div>
                             <div class=publication-content>
                                 <div class=publication-title>
                                         <a href="https://quadash-prinpnrr.github.io/proceedings/DatasetShift.DAMI.2024.pdf">
@@ -174,20 +177,26 @@
                         </div>
                         <!-- ----------------------------------------- -->
                         <div class=publication>
-                            <div class=publication-year>2024</div>
+                            <div class=publication-meta>
+                                <div class=publication-year>2024</div>
+                                <div class=publication-task>A1.1</div>
+                            </div>
                             <div class=publication-content>
                                 <div class=publication-title>
                                 <a href="https://quadash-prinpnrr.github.io/proceedings/Ordinal.DAMI.2024.pdf">
                                     Regularization-Based Methods for Ordinal Quantification
                                 </a>
                                 </div>
-                                <div class=publication-authors>Mirk Bunse, Alejandro Moreo, Fabrizio Sebastiani, and Martin Senz</div>
+                                <div class=publication-authors>Mirko Bunse, Alejandro Moreo, Fabrizio Sebastiani, and Martin Senz</div>
                                 <div class=publication-proceedings>Data Min Knowl Disc 38, 4076–4121 (2024)</div>
                             </div>
                         </div>
                         <!-- ----------------------------------------- -->
                         <div class=publication>
-                            <div class=publication-year>2025</div>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A1.2</div>
+                            </div>
                             <div class=publication-content>
                                 <div class=publication-title>
                                 <a href="https://quadash-prinpnrr.github.io/proceedings/BootsCI.LQ2025.pdf">
@@ -200,7 +209,10 @@
                         </div>
                         <!-- ----------------------------------------- -->
                         <div class=publication>
-                            <div class=publication-year>2025</div>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A1.3</div>
+                            </div>
                             <div class=publication-content>
                                 <div class=publication-title>
                                 <a href="https://quadash-prinpnrr.github.io/proceedings/KDEy.arXiv.2024.pdf">
@@ -212,8 +224,11 @@
                             </div>
                         </div>
                         <!-- ----------------------------------------- -->
-                        <div class=publication>
-                            <div class=publication-year>2025</div>
+                        <div class=publication id=kdey-nectar-pub>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A1.3</div>
+                            </div>
                             <div class=publication-content>
                                 <div class=publication-title>
                                 <a href="https://quadash-prinpnrr.github.io/proceedings/KDEy.NectarTrack.ECML2025.pdf">
@@ -225,17 +240,165 @@
                             </div>
                         </div>
                         <!-- ----------------------------------------- -->
-                        <!-- <div class=publication> -->
-                        <!--     <div class=publication-year>2024</div> -->
-                        <!--     <div class=publication-content> -->
-                        <!--         <div class=publication-title> -->
-                        <!--         <a href="https://quadash-prinpnrr.github.io/proceedings/"> -->
-                        <!--         </a> -->
-                        <!--         </div> -->
-                        <!--         <div class=publication-authors></div> -->
-                        <!--         <div class=publication-proceedings></div> -->
-                        <!--     </div> -->
-                        <!-- </div> -->
+                        <div class=publication>
+                            <div class=publication-meta>
+                                <div class=publication-year>2024</div>
+                                <div class=publication-task>A1.3</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/HistNetQ.NCAA.2024.pdf">
+                                    Quantification using permutation-invariant networks based on histograms
+                                </a>
+                                </div>
+                                <div class=publication-authors>Olaya Pérez-Mon, Alejandro Moreo, Juan José del Coz, et al.</div>
+                                <div class=publication-proceedings>Neural Comput & Applic (2024)</div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A1.3</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/XNQ.MachineLearning.2025.pdf">
+                                    Efficient quantification on large-scale networks
+                                </a>
+                                </div>
+                                    <div class=publication-authors>Alessio Micheli, Alejandro Moreo, Marco Podda, Fabrizio Sebastiani, William Simoni, and Domenico Tortorella</div>
+                                <div class=publication-proceedings>Machine Learning 114 (12), 1-26, 2025</div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication id=leap-ds-pub>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A2.5</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/LEAP.DS2024.pdf">
+                                    A Simple Method for Classifier Accuracy Prediction Under Prior Probability Shift
+                                </a>
+                                </div>
+                                <div class=publication-authors>Lorenzo Volpi, Alejandro Moreo, and Fabrizio Sebastiani</div>
+                                <div class=publication-proceedings>Discovery Science 2024, Pisa (IT), pp. 267-283. Springer Nature Switzerland, Pisa 2025</div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A2.5</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/LEAP.MachLearn.2025.pdf">
+                                    LEAP: Linear Equations for Classifier Accuracy Prediction under Prior Probability Shift
+                                </a>
+                                </div>
+                                <div class=publication-authors>Lorenzo Volpi, Alejandro Moreo, and Fabrizio Sebastiani</div>
+                                <div class=publication-proceedings>Machine Learning 114 (12), 293, 2025</div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication id=quacc-pub>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A2.5</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/quacc_preprint.pdf">
+                                    QuAcc: Using Quantification to Predict Classifier Accuracy under Prior Probability Shift
+                                </a>
+                                </div>
+                                <div class=publication-authors>Lorenzo Volpi, Alejandro Moreo, and Fabrizio Sebastiani</div>
+                                <div class=publication-proceedings>Intelligenza Artificiale, 1-17, 2025</div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A2.5</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/TMS.TRUST-AI.2025.pdf">
+                                    Transductive Model Selection under Prior Probability Shift
+                                </a>
+                                </div>
+                                <div class=publication-authors>Lorenzo Volpi, Alejandro Moreo, and Fabrizio Sebastiani</div>
+                                <div class=publication-proceedings>TRUST-AI: The European Workshop on Trustworthy AI (ECAI 2025). pp 256-265. October 2025, Bologna, Italy</div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication>
+                            <div class=publication-meta>
+                                <div class=publication-year>2026</div>
+                                <div class=publication-task>A2.7</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/QueryFairness.JAIR2026.pdf">
+                                    Quantifying Query Fairness Under Unawareness
+                                </a>
+                                </div>
+                                <div class=publication-authors> Thomas Jaenich, Alejandro Moreo, Alessandro Fabris, Graham Mcdonald, Andrea Esuli, Iadh Ounis, and Fabrizio Sebastiani </div>
+                                <div class=publication-proceedings>Journal of Artificial Intelligence Research, vol 85, 2026</div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication>
+                            <div class=publication-meta>
+                                <div class=publication-year>2024</div>
+                                <div class=publication-task>A3.1</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/LeQua2024.Overview(LQ2024).pdf">
+                                    An Overview of LeQua 2024: Learning to Quantify
+                                </a>
+                            </div>
+                                <div class=publication-authors>Andrea Esuli, Alejandro Moreo, Fabrizio Sebastiani, and Gianluca Sperduti</div>
+                                <div class=publication-proceedings>In Proceedings of the LQ 2024 workshop on learning to quantify, co-located at the ECML-PKDD 2024 conference</div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication>
+                            <div class=publication-meta>
+                                <div class=publication-year>2024</div>
+                                <div class=publication-task>A3.3</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/LQ2024.Proceedings.pdf">
+                                    Proceedings of the 4th International Workshop on Learning to Quantify (LQ 2024, Vilnius)
+                                </a>
+                                </div>
+                                <div class=publication-authors>Mirko Bunse, Pablo González, Alejandro Moreo, and Fabrizio Sebastiani</div>
+                                <div class=publication-proceedings></div>
+                            </div>
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class=publication>
+                            <div class=publication-meta>
+                                <div class=publication-year>2025</div>
+                                <div class=publication-task>A3.3</div>
+                            </div>
+                            <div class=publication-content>
+                                <div class=publication-title>
+                                <a href="https://quadash-prinpnrr.github.io/proceedings/LQ2025.Proceedings.pdf">
+                                    Proceedings of the 5th International Workshop on Learning to Quantify (LQ 2025, Porto)
+                                </a>
+                                </div>
+                                <div class=publication-authors>Mirko Bunse, Pablo González, Alejandro Moreo, and Fabrizio Sebastiani</div>
+                                <div class=publication-proceedings></div>
+                            </div>
+                        </div>
                         <!-- ----------------------------------------- -->
                     </div>
                 </section>
@@ -251,6 +414,41 @@
                     <h2 class=post-title>Awards</h2>
                 </header>
                 <section class=post-content>
+                    <div class=award-list>
+                        <div class=award>
+                            <div class=award-year>2024</div>
+                            <div class=award-content>
+                                <div class=award-title>Best runner-up SoBigData++ award</div>
+                                <div class=award-publication>
+                                <a href=#leap-ds-pub>
+                                    A Simple Method for Classifier Accuracy Prediction Under Prior Probability Shift 
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=award>
+                            <div class=award-year>2024</div>
+                            <div class=award-content>
+                                <div class=award-title>"Leonardo Lesmo" Best M.Sc. Thesis award</div>
+                                <div class=award-publication>
+                                <a href=#quacc-pub>
+                                    QuAcc: Using Quantification to Predict Classifier Accuracy under Prior Probability Shift
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=award>
+                            <div class=award-year>2025</div>
+                            <div class=award-content>
+                                <div class=award-title>"Nectar Track" @ ECML-PKDD 2025</div>
+                                <div class=award-publication>
+                                <a href=#kdey-nectar-pub>
+                                    Kernel Density Estimation for Multiclass Classification
+                                </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
 
             </article>
@@ -265,21 +463,21 @@
                     <section class=organizers>
                         <img src="https://pbs.twimg.com/profile_images/1392069039091077122/Lyb9oSOh_400x400.jpg" alt="CNR" class=profile-pic>
                         <div class=organizer-info>
-                            <p id=cnr class=organizer-name>ISTI - CNR</p>
+                            <p id=cnr class=organizer-name><a href=https://www.isti.cnr.it>ISTI - CNR</a></p>
                             <p id=isti-cnr>Istituto di Scienze e Tecnologie dell’Informazione, Consiglio Nazionalle delle Ricerche</p>
                         </div>
                     </section>
                     <section class=organizers>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kASNQAniYQxqRueAOLi-9PfXzEMuVR5HXw&s" alt="UniPD" class=profile-pic>
                         <div class=organizer-info>
-                            <p id=unipd class=organizer-name>UniPD</p>
+                            <p id=unipd class=organizer-name><a href="https://www.unipd.it/">UniPD</a></p>
                             <p id=uni-padova>University of Padova, Italy</p>
                         </div>
                     </section>
                     <section class=organizers>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVIN1N7HBPSzyOxql-dZqdUumtYJoVzCNpYA&s" alt="UniPI" class=profile-pic>
                         <div class=organizer-info>
-                            <p id=unipi class=organizer-name>UniPI</p>
+                            <p id=unipi class=organizer-name><a href="https://www.unipi.it/">UniPI</a></p>
                             <p id=uni-pisa>University of Pisa, Italy</p>
                         </div>
                     </section>
